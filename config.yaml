@@ -1,0 +1,47 @@
+# config.yaml
+# Central configuration for the Student Data Pipeline.
+# Editing this file lets you change data sources / paths without
+# touching any Python code (see README.md, section "Pipeline
+# Configuration" under Excellence Requirements).
+
+sources:
+  csv:
+    path: "data/raw/students.csv"
+
+  api:
+    # If use_mock is true, the pipeline starts its own local mock API
+    # (app/sources/mock_api_server.py) instead of calling an external
+    # service. Set to false and provide `base_url` to point at a real
+    # REST API.
+
+    use_mock: true
+    base_url: null
+    endpoint: "/api/academic"
+
+    # use_mock: false
+    # base_url: https://gist.githubusercontent.com/tahafoud/932a321308a838e8b2c42013524603f1/raw/68a986ed73be35f2e0ebed835ff7dbc0692aad5e/academic_data.json
+    #       e.g. "https://api.example.com" when use_mock is false
+    # endpoint: ""
+    timeout_seconds: 5
+    max_retries: 3
+
+  database:
+    path: "database/students.db"
+
+output:
+  processed_path: "data/processed/final_dataset.csv"
+  rejected_path: "data/rejected/rejected_records.csv"
+
+logging:
+  path: "logs/pipeline.log"
+  level: "INFO"
+
+validation:
+  age_min: 16
+  age_max: 80
+  gpa_min: 0
+  gpa_max: 4
+  attendance_min: 0
+  attendance_max: 100
+  score_min: 0
+  score_max: 100

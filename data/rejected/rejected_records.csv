@@ -1,0 +1,7 @@
+student_id,error_reason
+1006,Missing age
+1007,Invalid age
+1009,Invalid Attendance
+1012,Missing age
+1014,Invalid age
+,Missing student_id

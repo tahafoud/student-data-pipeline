@@ -1,0 +1,15 @@
+student_id,student_name,age,major,city,gpa,attendance,status,avg_score,courses_count,courses,source,performance_level,attendance_status
+1001,Ahmed Ali,21.0,Computer Science,Sanaa,3.45,92.0,Active,89.5,2.0,"Database Systems, Introduction To Programming",CSV+API+DATABASE,Very Good,Good
+1002,Sara Mohammed,22.0,Artificial Intelligence,Aden,3.9,88.0,Active,85.5,2.0,"Data Structures, Machine Learning",CSV+API+DATABASE,Excellent,Good
+1003,Omar Hassan,20.0,Information Systems,Taiz,2.6,75.0,Active,63.0,1.0,Introduction To Programming,CSV+API+DATABASE,Good,Good
+1004,Layla Nasser,19.0,Computer Science,Sanaa,2.1,60.0,Active,58.0,1.0,Data Structures,CSV+API+DATABASE,Acceptable,Low
+1005,Khalid Saeed,23.0,Software Engineering,Aden,3.2,95.0,Active,72.0,1.0,Database Systems,CSV+API+DATABASE,Very Good,Good
+1008,Mona Abdullah,20.0,Information Systems,Sanaa,3.0,65.0,Active,67.0,1.0,Data Structures,CSV+API+DATABASE,Very Good,Low
+1010,Huda Qasim,22.0,Software Engineering,Taiz,3.6,91.0,Active,90.0,1.0,Introduction To Programming,CSV+API+DATABASE,Excellent,Good
+1011,Salem Naji,21.0,Computer Science,Sanaa,3.1,84.0,Inactive,55.0,1.0,Machine Learning,CSV+API+DATABASE,Very Good,Good
+1013,Bilal Anwar,20.0,Information Systems,Taiz,3.3,89.0,Active,81.0,1.0,Computer Networks,CSV+API+DATABASE,Very Good,Good
+1015,Marwan Adel,21.0,Software Engineering,Sanaa,3.0,75.0,Active,66.0,1.0,Database Systems,CSV+API+DATABASE,Very Good,Good
+1016,Nadia Karim,22.0,Data Science,Aden,3.7,93.0,Active,89.0,1.0,Machine Learning,CSV+API+DATABASE,Excellent,Good
+1017,Faisal Nabil,23.0,Computer Science,Taiz,2.8,77.0,Active,74.0,1.0,Computer Networks,CSV+API+DATABASE,Good,Good
+1018,Hind Majid,20.0,Artificial Intelligence,Sanaa,3.95,97.0,Active,92.0,1.0,Data Structures,CSV+API+DATABASE,Excellent,Good
+1019,Waleed Rami,21.0,Information Systems,Aden,2.2,66.0,Active,60.0,1.0,Introduction To Programming,CSV+API+DATABASE,Acceptable,Low
